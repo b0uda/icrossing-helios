@@ -10,8 +10,6 @@
 
 /*b0uda css*/
 
-
-
 #project-demand-header{
 	text-align: center;
 }
@@ -2003,7 +2001,8 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: rgb(156,88,117);
+		/* previous color df7366*/
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2109,11 +2108,11 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/b0uda_header_icrossing.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #000;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2144,7 +2143,7 @@
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #000;
 			font-size: 3em;
 			line-height: 1em;
 		}
