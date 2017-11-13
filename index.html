@@ -89,7 +89,7 @@
 			<section id="features" class="container special">
 				<header>
 					<h2>Services I-crossing</h2>
-					<p> notre agence offre plusieurs services: étude, UX, conception, design, développement, SEO pour garantir le meilleur resulat pour ses clients</p>
+					<p> Notre agence offre plusieurs services: <strong>étude</strong>, <strong>UX</strong>, <strong>conception</strong>, <strong>design</strong>, <strong>développement</strong>, <strong>SEO</strong> pour garantir le <strong>meilleur resulat pour ses clients</strong></p>
 				</header>
 				<div id="icrossing-services" class="row">
 					<article class="3u 12u(mobile) special">
@@ -151,10 +151,10 @@
 								</p>
 							</section>
 							<!-- Photos -->
-							<section class="4u 12u(mobile)">
-								<!-- <header>
+							<!-- <section class="4u 12u(mobile)">
+								<header>
 									<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
-								</header> -->
+								</header> 
 								<div class="row 25%">
 									<div class="6u">
 										<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
@@ -175,6 +175,20 @@
 										<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
 									</div>
 								</div>
+							</section> -->
+
+							<!-- contact form -->
+
+							<section class="4u 12u(mobile)">
+								<!-- <header>
+									<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+								</header> -->
+								<div class="row 25%">
+									<div class="6u">
+										<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+									</div>
+									
+								</div>
 							</section>
 
 						</div>
@@ -184,8 +198,8 @@
 
 								<!-- Contact -->
 								<section class="contact">
-									<p>Email: webicrossing@gmail.com <br>
-									Mobile : 0675046242 | Fix : 0537394290</p>
+									<p>Email &nbsp;&nbsp;:&nbsp;&nbsp; webicrossing@gmail.com <br>
+									Mobile &nbsp;:&nbsp; (+212) 675046242 &nbsp;&nbsp;|&nbsp;&nbsp; Fix &nbsp;:&nbsp; (+212) 537394290</p>
 									<p></p>
 									<ul class="icons">
 										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -213,7 +227,19 @@
 			</div>
 
 			<!-- Scripts -->
-
+ 	<script>
+      window.initMap = function() {
+        var uluru = {lat: 34.259217, lng: -6.601413};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      };
+    </script>
 			
 			<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzx0rAXID7oWAYp65TCEqAcQFGUaFWQ0Q&callback=initMap">
@@ -227,19 +253,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			
-			 <script>
-      function initMap() {
-        var uluru = {lat: 34.259217, lng: -6.601413};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 17,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
+			
 
 		</body>
 		</html>
