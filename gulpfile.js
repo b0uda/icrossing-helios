@@ -3,7 +3,7 @@ var server = require('gulp-server-livereload');
  var sass = require('gulp-sass');
  
 gulp.task('webserver', function() {
-  gulp.src('./../icrossing-helios/')
+  gulp.src('./../icrossing-helios-base/')
     .pipe(server({
       livereload: true,
       directoryListing: true,
@@ -18,11 +18,11 @@ gulp.task('sass', function () {
 });
  
 gulp.task('watch', function () {
-	 // gulp.src('./../icrossing-helios/')
-  //   .pipe(server({
-  //     livereload: true,
-  //     directoryListing: true,
-  //     open: true
-  //   }));
+	 gulp.src('./../icrossing-helios-base/')
+    .pipe(server({
+      livereload: true,
+      directoryListing: true,
+      open: true
+    }));
   gulp.watch('./assets/sass/*.scss', ['sass']);
 });

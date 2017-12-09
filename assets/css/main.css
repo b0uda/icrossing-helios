@@ -22,28 +22,12 @@
   margin-top: 35px;
   font-weight: bolder; }
 
-#section_map h2 {
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: -50px; }
-
 a.disabled {
   pointer-events: none;
   cursor: default; }
 
 .demo-card-wide.mdl-card {
   width: 100%; }
-
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url("../../images/b0uda_conatctus.jpg") center/cover; }
-
-.demo-card-wide > .mdl-card__menu {
-  color: #fff; }
-
-.mdl-card__supporting-text {
-  text-align: center; }
 
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2091,12 +2075,21 @@ body.homepage.is-loading #header:after {
   .carousel article .image {
     margin-bottom: 2em; } }
 
-.mdl-card__supporting-text form input {
-  border: 0;
-  background: #fff; }
-
-.mdl-card__supporting-text form label {
-  font-size: 1em; }
+.form-contact-container form {
+  text-align: center;
+  padding: 1em 0 1em 0; }
+  .form-contact-container form p {
+    color: #000;
+    text-align: center; }
+  .form-contact-container form div {
+    margin-bottom: 5%; }
+  .form-contact-container form input {
+    border: 0;
+    color: #000; }
+  .form-contact-container form textarea {
+    color: #000; }
+  .form-contact-container form label {
+    font-size: 1em; }
 
 .mdl-textfield {
   padding: 0; }
@@ -2106,3 +2099,14 @@ body.homepage.is-loading #header:after {
 
 .mdl-textfield__label:after {
   bottom: 0; }
+
+#footer {
+  padding-bottom: 1em;
+  padding-top: 1em; }
+
+#footer section h2 {
+  text-align: center;
+  margin-bottom: 0.5em; }
+
+.contact-header2 {
+  padding-bottom: 15px; }

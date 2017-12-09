@@ -148,9 +148,10 @@
 
 		<div id="footer">
 			<div class="container">
+				
 				<div class="row">
 					<section id="section_map" class="7u 12u(mobile)">
-						<h2>Nous contacter</h2>
+						<h2 >Carte</h2>
 						<div id="map">
 						</div>
 						<p>
@@ -162,152 +163,155 @@
 
 					<section class="5u 12u(mobile)">
 
-						<div  class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<h2 class="contact-header2">Contact</h2>
 
 
-							<div class="mdl-card__title">
-								<h2 class="mdl-card__title-text"></h2>
-							</div>
+						<div   class="demo-card-wide mdl-card mdl-shadow--2dp form-contact-container">
 
 
-							<div style="margin: auto;" class="mdl-card__supporting-text">
-								<p>
-									Merci de bien vouloir renseigner quelques informations.
-								</p>
+							<form action="#">
 
-								<form action="#">
+								<p>Merci de bien vouloir remplir ce formulaire</p>
 
-									<!-- Lastname -->
-									<div  class="mdl-textfield mdl-js-textfield">
-										<input class="mdl-textfield__input" type="text" id="lastname">
-										<label class="mdl-textfield__label" for="lastname">Nom</label>
-									</div>
+								<!-- Lastname -->
+								<div  class="mdl-textfield mdl-js-textfield ">
+									<input class="mdl-textfield__input" type="text" id="lastname">
+									<label class="mdl-textfield__label" for="lastname">Nom</label>
+								</div>
 
-									<!-- firstname -->
-									<div class="mdl-textfield mdl-js-textfield">
+								<!-- firstname -->
+									<!-- <div class="mdl-textfield mdl-js-textfield">
 										<input class="mdl-textfield__input" type="text" id="firstname">
 										<label class="mdl-textfield__label" for="firstname">Prenom</label>
-									</div>
+									</div> -->
 									<!-- object -->
 									<div paddingExept="true" class="mdl-textfield mdl-js-textfield  getmdl-select getmdl-select__fullwidth">
 										<input class="mdl-textfield__input" type="text" id="objet" value="" readonly tabIndex="-1">
-										<label paddingExept="true" for="objet" class="mdl-textfield__label">Objet</label>
+										<label paddingExept="true" id="objet-label" for="objet" class="mdl-textfield__label">Objet</label>
 										<ul for="objet" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-											<li value="Besoin d'un avis d'expert?" class="mdl-menu__item">Besoin d'un avis d'expert?</li>
-											<li class="mdl-menu__item">Je souhaite discuter de mon projet avec i-crossing</li>
-											<li class="mdl-menu__item">Autre</li>
+											<li  value="Besoin d'un avis d'expert?" class="mdl-menu__item object-items">Besoin d'un avis d'expert?</li>
+											<li  class="mdl-menu__item object-items">Je souhaite discuter de mon projet avec i-crossing</li>
+											<li  class="mdl-menu__item object-items">Autre</li>
 										</ul>
 									</div>
 									<!-- email -->
 									<div class="mdl-textfield mdl-js-textfield ">
-										<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="email">
-										<label class="mdl-textfield__label" for="email">Email...</label>
-										<span class="mdl-textfield__error">Input is not an email!</span>
+										<input class="mdl-textfield__input" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email">
+										<label class="mdl-textfield__label" for="email">Adresse E-mail...</label>
+										<span class="mdl-textfield__error">Veuillez saisir une adresse email valide</span>
 									</div>
 
 									<!-- telephone -->
 									<div class="mdl-textfield mdl-js-textfield ">
 										<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="phone">
 										<label class="mdl-textfield__label" for="phone">Telephone</label>
-										<span class="mdl-textfield__error">Input is not a phone number!</span>
+										<span class="mdl-textfield__error">veuillez saisir un numéro de téléphone valide</span>
 									</div>
 									<!-- message -->
 									<div class = "mdl-textfield mdl-js-textfield">
 										<textarea class = "mdl-textfield__input" type = "text" rows =  "3" 
 										id = "message" ></textarea>
-										<label class = "mdl-textfield__label" for = "message">Message...</label>
+										<label class = "mdl-textfield__label" for = "message">Votre message...</label>
 									</div>
 
-
 								</form>
+								
+
+
+								<div style="text-align: center; color:rgb(157,89,114);" class="mdl-card__actions mdl-card--border">
+									<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+										Envoyer votre demande
+									</a>
+								</div>
+								
 							</div>
-
-
-							<div style="text-align: center; color:rgb(157,89,114);" class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-									Envoyer votre demande
-								</a>
-							</div>
-
-
-							<div class="mdl-card__menu">
-								<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-									
-								</button>
-							</div>
-						</div>
-					</section>
-
-				</div>
-
-				<hr  />
-
-				<div class="row">
-					<div class="12u">
-
-						<!-- Contact -->
-						<section class="contact">
-							<p>Email &nbsp;&nbsp;:&nbsp;&nbsp; webicrossing@gmail.com <br>
-								<!-- <hr  /> -->
-								<p>Mobile &nbsp;:&nbsp; (+212) 675046242 &nbsp;&nbsp;|&nbsp;&nbsp; Fix &nbsp;:&nbsp; (+212) 537394290</p>
-							</p>
-
-							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-							</ul>
 						</section>
-
-
-
-
-						<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; i crossing. All rights reserved.</li><li>Design: i crossing</li>
-							</ul>
-						</div>
 
 					</div>
 
+					<hr  />
+
+					<div class="row">
+						<div class="12u">
+
+							<!-- Contact -->
+							<section class="contact">
+								<p>Email &nbsp;&nbsp;:&nbsp;&nbsp; reda.benlahsen@webicrossing.com <br>
+									<!-- <hr  /> -->
+									<p>Mobile &nbsp;:&nbsp; (+212) 675046242 &nbsp;&nbsp;|&nbsp;&nbsp; Fix &nbsp;:&nbsp; (+212) 537394290</p>
+								</p>
+
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+								</ul>
+							</section>
+
+
+
+
+							<!-- Copyright -->
+							<div class="copyright">
+								<ul class="menu">
+									<li>&copy; i crossing. All rights reserved.</li><li>Design: i crossing</li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
 				</div>
 			</div>
+
 		</div>
 
-	</div>
+		<!-- Scripts -->
+		<script>
+			window.initMap = function() {
+				var uluru = {lat: 34.259217, lng: -6.601413};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 17,
+					center: uluru
+				});
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			};
 
-	<!-- Scripts -->
-	<script>
-		window.initMap = function() {
-			var uluru = {lat: 34.259217, lng: -6.601413};
-			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 17,
-				center: uluru
-			});
-			var marker = new google.maps.Marker({
-				position: uluru,
-				map: map
-			});
-		};
+		</script>
+
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzx0rAXID7oWAYp65TCEqAcQFGUaFWQ0Q&callback=initMap">
 	</script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.onvisible.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+	<!-- <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
 
-	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzx0rAXID7oWAYp65TCEqAcQFGUaFWQ0Q&callback=initMap">
-</script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.onvisible.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+
+			$(".object-items").on('click' , function(){
+				
+				$("#objet-label").text("");
+				$("#objet").val($(this).html());
+
+			});
 
 
+		});
+	</script>
 
 </body>
 </html>
