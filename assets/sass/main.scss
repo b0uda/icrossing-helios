@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
 
+// import custume font for map headers roboto and aladin
+
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -2145,7 +2151,7 @@ a.disabled {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/b0uda_header_icrossing.jpg");
+		background-image: url("../../images/header_background_icrossing3.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -3109,11 +3115,12 @@ a.disabled {
 
 text-align: center;
 
-padding: 1em 0 1em 0;
+padding: 2em 0 1em 0;
 
 p{
 	color: #000;
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 div{
