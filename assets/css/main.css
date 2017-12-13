@@ -1380,7 +1380,7 @@ header .icon.circled {
 /* Header */
 #header {
   position: relative;
-  background-image: url("../../images/header_background_icrossing3.jpg");
+  background-image: url("../../images/header_background_icrossing.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
