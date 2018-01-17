@@ -1,0 +1,25 @@
+{
+  "name": "html5up-helios",
+  "version": "1.0.0",
+  "description": "Helios by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0uda/icrossing-helios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b0uda/icrossing-helios/issues"
+  },
+  "homepage": "https://github.com/b0uda/icrossing-helios#readme"
+}
